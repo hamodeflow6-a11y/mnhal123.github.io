@@ -35,3 +35,22 @@ layout: default
 * **اللغات:** Python, C++, SQL
 * **التقنيات:** Web Development, Database Architecture
 * **الأدوات:** Git, GitHub, VS Code
+* <div id="projects"></div>
+
+## 🚀 مشاريع مختارة
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+  
+  <div style="border: 1px solid #eee; padding: 20px; border-radius: 10px;">
+    <h3>تحليل قواعد البيانات</h3>
+    <p>مقارنة فنية بين Oracle و SQL Server.</p>
+    <small><i>Python | SQL</i></small>
+  </div>
+
+  <div style="border: 1px solid #eee; padding: 20px; border-radius: 10px;">
+    <h3>قريباً..</h3>
+    <p>مشروع برمجيات جديد قيد التطوير.</p>
+    <small><i>C++</i></small>
+  </div>
+
+</div>
+

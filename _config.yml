@@ -1,10 +1,13 @@
+title: "منهل | هندسة وابتكار"
+description: "بورتفوليو تقني لمهندس المستقبل"
 theme: jekyll-theme-cayman
 
-# إضافة قائمة تنقل (Navigation)
-collections:
-  pages:
-    output: true
-theme: jekyll-theme-cayman
-<hr>
-<footer style="text-align: center; color: #7f8c8d;">طتم البناء بواسطة منهل | 2026 | تقانه معلومات ب
-</footer>
+# تمكين التنقل
+nav:
+  - name: "الرئيسية"
+    link: "/"
+  - name: "المشاريع"
+    link: "/projects.md"
+  - name: "عني"
+    link: "/about.md"
+

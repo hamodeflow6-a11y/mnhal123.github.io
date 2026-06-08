@@ -1,3 +1,21 @@
+<style>
+  /* تصميم عصري للبطاقات */
+  .custom-card {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    border-left: 5px solid #2ecc71;
+    transition: transform 0.3s ease;
+  }
+  .custom-card:hover { transform: translateY(-5px); }
+  
+  /* تحسين الخطوط */
+  body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; }
+  h1, h2 { color: #2c3e50; }
+</style>
+
 # 👨‍💻 مرحباً، أنا منهل صلاح الدين بشير
 طالب تقانه معلومات شغوفه بتحويل الأفكار إلى حلول برمجية. هذه المدونة هي مساحتي لتوثيق رحلتي الأكاديمية ومشاريعي التقنية.
 ---

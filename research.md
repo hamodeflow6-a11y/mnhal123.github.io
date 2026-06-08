@@ -1,3 +1,10 @@
+graph TD
+    A[قواعد البيانات] --> B(Oracle)
+    A --> C(SQL Server)
+    B --> D{المؤسسات العملاقة}
+    C --> E{الشركات المتوسطة}
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+
 ---
 layout: default
 title: "بحث قواعد البيانات"

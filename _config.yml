@@ -1,1 +1,7 @@
 theme: jekyll-theme-cayman
+
+# إضافة قائمة تنقل (Navigation)
+collections:
+  pages:
+    output: true
+theme: jekyll-theme-cayman

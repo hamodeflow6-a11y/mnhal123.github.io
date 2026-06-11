@@ -8,6 +8,7 @@ layout: default
     background-color: #121212;
     color: #e0e0e0;
     font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
   }
   
   .hero-section {
@@ -40,7 +41,20 @@ layout: default
     border-left: 5px solid #bb86fc;
   }
   
-  h2 { color: #bb86fc; }
+  h2 { color: #bb86fc; margin-top: 0; }
+
+  /* تنسيق زر التواصل */
+  .social-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #3b5998; /* لون فيسبوك المميز */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  .social-btn:hover { background-color: #2d4373; transform: translateY(-2px); }
 </style>
 
 <div class="hero-section">
@@ -51,6 +65,7 @@ layout: default
     <a href="#cv" class="btn-nav">السيرة الذاتية</a>
     <a href="#skills" class="btn-nav">المهارات</a>
     <a href="#hobbies" class="btn-nav">الهوايات</a>
+    <a href="#contact" class="btn-nav">تواصل معي</a>
   </div>
 </div>
 
@@ -74,9 +89,9 @@ layout: default
 
 <div id="contact" class="section-card">
   <h2>📞 تواصل معي</h2>
-  <p>يسعدني تواصلكم عبر الروابط التالية:</p>
-  <div id="social-links-placeholder">
-    <p><i>(جاري تجهيز روابط التواصل الاجتماعي...)</i></p>
-  </div>
+  <p>يسعدني تواصلكم عبر حسابي الشخصي:</p>
+  <a href="https://www.facebook.com/profile.php?id=61575944877447" target="_blank" class="social-btn">
+    تابعني على فيسبوك
+  </a>
 </div>
 

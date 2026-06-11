@@ -65,6 +65,54 @@ layout: default
     <a href="#cv" class="btn-nav">السيرة الذاتية</a>
     <a href="#skills" class="btn-nav">المهارات</a>
     <a href="#hobbies" class="btn-nav">الهوايات</a>
+    <style>
+  /* تصميم بطاقات المشاريع */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .project-card {
+    background: #252525;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #444;
+    transition: 0.3s;
+  }
+  .project-card:hover {
+    border-color: #bb86fc;
+    transform: translateY(-10px);
+  }
+  .project-card h3 { color: #bb86fc; margin-top: 0; }
+  .project-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #bb86fc;
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+</style>
+
+<div id="projects" class="section-card">
+  <h2>🚀 معرض المشاريع</h2>
+  <div class="projects-grid">
+    
+    <div class="project-card">
+      <h3>نظام إدارة قواعد البيانات</h3>
+      <p>بحث تقني مفصل للمقارنة بين Oracle و SQL Server.</p>
+      <a href="#" class="project-link">عرض التفاصيل ←</a>
+    </div>
+
+    <div class="project-card">
+      <h3>مشروع C++ قيد التطوير</h3>
+      <p>خوارزميات معالجة البيانات وبناء هياكل بيانات مخصصة.</p>
+      <a href="#" class="project-link">قريباً ←</a>
+    </div>
+
+  </div>
+</div>
+
     <a href="#contact" class="btn-nav">تواصل معي</a>
   </div>
 </div>
